@@ -61,6 +61,22 @@ alias NGINXSTART='sudo systemctl start nginx'
 alias NGINXSTOP='sudo systemctl stop nginx'
 alias NGINXRESTART='sudo systemctl restart nginx'
 alias NGINXSTATUS='sudo systemctl status nginx'
+
+
+# KALI / SECURITY TOOLS
+alias WIRESHARK='sudo wireshark'
+alias NMAP='sudo nmap'
+alias HYDRA='hydra'
+alias JOHN='john'
+alias AIRMON='sudo airmon-ng'
+alias AIRDUMP='sudo airodump-ng'
+alias AIRCRACK='sudo aircrack-ng'
+alias SQLMAP='sqlmap'
+alias METASPLOIT='sudo msfconsole'
+alias BURP='burpsuite'
+alias NIKTO='nikto'
+alias FEROX='feroxbuster'
+alias ENUM4LINUX='enum4linux'
 EOF
 
 # Berechtigungen setzen
